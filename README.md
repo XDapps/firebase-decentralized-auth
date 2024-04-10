@@ -2,7 +2,7 @@
 
 This is a demo application showing how to use signed messages with Firebase auth to manage login credentials in a decentralized way.
 
-[Live Demo](https://decentralized-auth-1b3f3.web.app/{:target="_blank"})
+[Live Demo](https://decentralized-auth-1b3f3.web.app/)
 *Demo may run slow on first call due to function cold starts.
 
 It uses a React front-end to allow users to sign messages using a web3 browser wallet and then calls a Firebase cloud function to validate the signature and return login credentials.
@@ -25,6 +25,6 @@ The back-end is built in Typescript using Firebase cloud functions. The back-end
 
 ## Setup
 
-1. Create a Firebase project. [Tutorial](https://www.youtube.com/watch?v=SAwxUq0kiZY{:target="_blank"})
+1. Create a Firebase project. [Tutorial](https://www.youtube.com/watch?v=SAwxUq0kiZY)
 2. Deploy the back-end (Firebase Functions) per instructions in functions ReadMe file.
 3. Deploy the front-end per instructions in the front-end ReadMe file.

@@ -2,7 +2,7 @@
 
 This is the React front-end of a working example demonstrating how to use signed messages with Firebase auth to manage login credentials in a decentralized way.
 
-[Live Demo](https://decentralized-auth-1b3f3.web.app/){:target="_blank"}
+[Live Demo](https://decentralized-auth-1b3f3.web.app/)
 *Demo may run slow on first call due to function cold starts.
 
 ## Front-End Setup
