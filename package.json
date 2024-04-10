@@ -1,0 +1,11 @@
+{
+  "name": "@xdapps/firebase-decentralized-auth",
+  "version": "1.0.0",
+  "description": "This is a demo app showing how to manage user authentication in a decentralized way using Firebase and signed messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "XDev",
+  "license": "ISC"
+}

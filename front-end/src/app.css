@@ -1,0 +1,11 @@
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-button-row{
+	display: flex;
+	align-items: center;
+}
