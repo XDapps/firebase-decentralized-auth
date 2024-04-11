@@ -11,8 +11,6 @@ It uses a React front-end to allow users to sign messages using a web3 browser w
 > There is a hard coded variable in the front and and back end with a value of "Decentralized Login Phrase". Think of this as a seed, you may change it at any time, but it needs to be the same in both places.
 >
 > The reason you'd want to change this is because a signed message's signature will always remain the same if the message being signed is the same, so you should rotate the login phrase regularly.
-> [!IMPORTANT]
-> You MUST configure the service account permissions via the instructions in the back-end ReadMe file.
 
 ## Front-End
 
