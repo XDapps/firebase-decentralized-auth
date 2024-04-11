@@ -13,19 +13,19 @@ This is the cloud functions back-end of a working example demonstrating how to u
 4. Add the Service Account Token Creator Role to the App Engine default service account.
 5. Init functions
 
-```ts
+```shell
 firebase init functions
 ```
 
-6. Install dependencies.
+Install dependencies.
 
-```ts
+```shell
 cd functions
 npm install
 ```
 
-7. Deploy functions
+Deploy functions
 
-```ts
+```shell
 firebase deploy --only functions
 ```

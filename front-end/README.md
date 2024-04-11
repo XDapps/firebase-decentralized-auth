@@ -7,7 +7,7 @@ This is the React front-end of a working example demonstrating how to use signed
 
 ## Front-End Setup
 
-1. Update your project config in the src/configs/firebaseConfig.ts file.
+Update your project config in the src/configs/firebaseConfig.ts file.
 
 ```ts
 export const firebaseConfig = {
@@ -20,41 +20,42 @@ export const firebaseConfig = {
 };
 ```
 
-3. Install Dependencies
+Install Dependencies
 
-```ts
+```shell
 npm install
 or 
 yarn
 ```
 
-4. Run Locally
+Run Locally
 
-```
+```shell
 npm run dev
 ```
 
 ## Deploy with Firebase Hosting
 
-1. Install Firebase Tools
+Install Firebase Tools
 
-```ts
+```shell
 npm install -g firebase-tools
 ```
 
-2. Initialize Hosting
+Initialize Hosting
 
-```
+```shell
 firebase init hosting
 ```
 
-3. Deploy
+Deploy
 
-```ts
+```shell
 firebase deploy --only hosting
 ```
 
 ## Note
+
 Backend cloud functions repository must also be deployed and configured for this to work properly.
 
 ## Security Rules
